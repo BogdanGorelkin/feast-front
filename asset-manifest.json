@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/feast-front/static/css/main.21080615.css",
+    "main.js": "/feast-front/static/js/main.b4819f50.js",
+    "static/media/logo.svg": "/feast-front/static/media/logo.829a25f68cde8fcbe977264304b90c28.svg",
+    "index.html": "/feast-front/index.html",
+    "main.21080615.css.map": "/feast-front/static/css/main.21080615.css.map",
+    "main.b4819f50.js.map": "/feast-front/static/js/main.b4819f50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21080615.css",
+    "static/js/main.b4819f50.js"
+  ]
+}
