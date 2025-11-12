@@ -1,0 +1,56 @@
+@import '../landingPalette.module.scss';
+
+.testimonials-section {
+  background: $backgroundWhite;
+}
+
+.testimonials-grid {
+  margin-top: 40px;
+}
+
+.testimonial-card {
+  border-radius: 16px !important;
+  transition: all 0.3s ease;
+  height: 100%;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+  }
+}
+
+.testimonial-quote-icon {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.testimonial-content {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: $textDark !important;
+  margin-bottom: 20px !important;
+  font-style: italic;
+}
+
+.testimonial-rating {
+  margin-bottom: 16px;
+}
+
+.testimonial-author {
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  padding-top: 16px;
+}
+
+.testimonial-name {
+  margin: 0 !important;
+  color: $textDark !important;
+  font-weight: 600;
+}
+
+.testimonial-role {
+  margin: 4px 0 0 0 !important;
+  color: $textLight !important;
+  font-size: 0.9rem;
+}
+

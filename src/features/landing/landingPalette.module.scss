@@ -1,0 +1,30 @@
+// Kid-friendly, warm color palette
+$primaryPink: #ff6b9d;
+$primaryPurple: #9b59b6;
+$primaryBlue: #3498db;
+$primaryOrange: #ff8c42;
+$primaryYellow: #fdcb6e;
+$primaryGreen: #00b894;
+
+$textDark: #2d3436;
+$textLight: #636e72;
+$backgroundLight: #f8f9fa;
+$backgroundWhite: #ffffff;
+$accentCoral: #ff7675;
+$accentMint: #55efc4;
+
+:export {
+  primaryPink: $primaryPink;
+  primaryPurple: $primaryPurple;
+  primaryBlue: $primaryBlue;
+  primaryOrange: $primaryOrange;
+  primaryYellow: $primaryYellow;
+  primaryGreen: $primaryGreen;
+  textDark: $textDark;
+  textLight: $textLight;
+  backgroundLight: $backgroundLight;
+  backgroundWhite: $backgroundWhite;
+  accentCoral: $accentCoral;
+  accentMint: $accentMint;
+}
+

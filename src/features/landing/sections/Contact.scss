@@ -1,0 +1,82 @@
+@import '../landingPalette.module.scss';
+
+.contact-section {
+  background: $backgroundLight;
+}
+
+.contact-content {
+  margin-top: 40px;
+}
+
+.contact-form-card {
+  border-radius: 16px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+.contact-info {
+  padding: 20px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 24px;
+  background: white;
+  border-radius: 12px;
+  text-decoration: none;
+  color: $textDark;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  }
+
+  span {
+    flex: 1;
+  }
+}
+
+.whatsapp-link {
+  &:hover {
+    border-color: #25d366;
+    color: #25d366;
+  }
+
+  .anticon {
+    font-size: 1.5rem;
+    color: #25d366;
+  }
+}
+
+.phone-link {
+  &:hover {
+    border-color: $primaryBlue;
+    color: $primaryBlue;
+  }
+
+  .anticon {
+    font-size: 1.5rem;
+    color: $primaryBlue;
+  }
+}
+
+.contact-note {
+  margin-top: 32px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  border-left: 4px solid $primaryYellow;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    margin-top: 32px;
+  }
+}
+

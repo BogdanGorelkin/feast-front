@@ -1,0 +1,80 @@
+@import '../landingPalette.module.scss';
+
+.about-section {
+  background: $backgroundWhite;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-features {
+  margin-bottom: 60px;
+}
+
+.feature-card {
+  height: 100%;
+  text-align: center;
+  transition: all 0.3s ease;
+  border-radius: 16px !important;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+  }
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.feature-title {
+  color: $textDark !important;
+  margin-bottom: 12px !important;
+}
+
+.feature-description {
+  color: $textLight !important;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.about-story {
+  margin-top: 60px;
+}
+
+.story-content {
+  padding: 20px;
+}
+
+.story-image-placeholder {
+  background: linear-gradient(135deg, #{$primaryPink}20 0%, #{$primaryPurple}20 100%);
+  border-radius: 16px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.placeholder-content {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .about-features {
+    margin-bottom: 40px;
+  }
+
+  .about-story {
+    margin-top: 40px;
+  }
+
+  .story-image-placeholder {
+    min-height: 250px;
+  }
+}
+
