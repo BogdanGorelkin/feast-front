@@ -47,7 +47,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start:prod-fr": "dotenv -e .env.fr.prod react-scripts start",
-    "predeploy": "npm run build:gh-pages",
+    "predeploy": "pnpm run build:gh-pages",
     "deploy": "gh-pages -d build",
     "lint": "npm run lint:format && npm run lint:fix",
     "lint:fix": "eslint ./src --ext .tsx,.ts,.js --quiet --fix --ignore-path ./.gitignore",
